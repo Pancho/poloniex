@@ -36,8 +36,8 @@ class Poloniex(object):
 		Constructor. You can instantiate this class with either file path or with all three values that would otherwise
 		 be found in the config file.
 		:param config_file_path: path to the file with the config
-		:param api_key: API key found on https://www.bitstamp.net/account/security/api/
-		:param secret: Secret found on https://www.bitstamp.net/account/security/api/ (disappears after some time)
+		:param api_key: API key found on https://www.poloniex.com/apiKeys/
+		:param secret: Secret found on https://www.poloniex.com/apiKeys/ (disappears after some time)
 		:return: The client object
 		'''
 		# None of the parameters are necessary, but to work properly, we need at least one pair from one source
